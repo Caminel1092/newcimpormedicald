@@ -1,0 +1,124 @@
+.minicartIconContainer {
+    display: flex;
+    align-items: center;
+}
+.minicartIconContainer::before {
+    content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/carrito.png)no-repeat;
+    background-size: 100%;
+    font-size: 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    top: 20%;
+    transition: all 40ms;
+    margin-right: 5px;
+}
+.minicartIconContainer::after {
+    content: "CARRITO";
+    display: block;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin: 0 9px 0 0;
+    color:black;
+}
+.openIconContainer {
+    padding: .75rem 0;
+}
+.cartIcon {
+    width: 41px;
+    color: #ffc100;
+    display: none;
+}
+.minicartQuantityBadge {
+    top: -5px;
+    font-size: 11px!important;
+    width: 10px;
+    height: 10px;
+    right: 70px;
+    background: white!important;
+    color: black!important;
+}
+.v-mid:hover {
+    background: none !important;
+    height: inherit;
+}
+.v-mid{
+   min-height: 20px;
+   max-height: 20px;
+}
+.vtex-button__label{
+    display: none !important;
+  }
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+    content: "Finalizar compra";
+    font-size: 15px;
+}
+.minicartCheckoutButton :global(.vtex-button__label) {
+    font-size: 0;
+    background: #0668dd;
+    border-radius: 0;
+    height: 43px;
+    padding: 17px;
+    color:white
+}
+.minicartIconContainer{
+    padding-right: 0 !important;
+}
+.minicartEmptyStateContainer .paragraph {
+    font-size: 0;
+}
+.minicartEmptyStateContainer .paragraph::before {
+    content: "su carrito está vacío";
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.minicartEmptyStateContainer::after {
+    content: "CARRITO VACIO";
+    margin: 0 auto;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .minicartIconContainer {
+        display: flex;
+        align-items: center;
+    }
+    .minicartIconContainer::before {
+        content: "";
+        background: url(https://impormedical.vtexassets.com/arquivos/carrito.png)no-repeat;
+        background-size: 100%;
+        font-size: 10px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+        top: 20%;
+        transition: all 40ms;
+        margin-right: 5px;
+    }
+    .minicartIconContainer::after {
+        content: "CARRITO";
+        display: block;
+        font-size: 10px;
+        text-transform: capitalize;
+        margin: 0 3px 0 0;
+        color:black;
+    }
+    .minicartQuantityBadge {
+        top: -7px;
+        font-size: 9px!important;
+        width: 9px;
+        height: 8px;
+        left: 13%;
+        background: white!important;
+        color: black!important;
+        padding: 3px;
+    }
+}

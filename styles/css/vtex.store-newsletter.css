@@ -1,0 +1,80 @@
+.emailInputContainer {
+    width: 300px;
+}
+.formSubmitContainer {
+    background: #deec00;
+    border-radius: 5px;
+    height: auto;
+    max-height: 82%;
+    margin: 2px 0 0 8px;
+}
+.formSubmitContainer :global(.vtex-button__label) {
+    color: #191531;
+    padding: 9px 11px!important;
+}
+.confirmationCheckboxContainer :global(.vtex-checkbox__label) {
+    color: white;
+}
+.confirmationCheckboxContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------MOBILE---*/
+@media only screen and (max-width: 700px) {
+    .emailInputContainer {
+        width: 256px;
+        margin: 0 auto;
+    }
+    .emailInputContainer :global(.vtex-input-prefix__group){
+        margin: 0 0 0 -2px;
+    }
+    .confirmationCheckboxContainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .confirmationCheckboxContainer :global(.vtex-checkbox__label) {
+        color: white;
+        font-size: 12px;
+    }
+    .newsletterForm {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .confirmationCheckboxContainer {
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+@media only screen and (max-width: 900px) {
+    .newsletterForm {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .confirmationCheckboxContainer {
+        display: flex;
+        justify-content: center;
+    }
+    
+}

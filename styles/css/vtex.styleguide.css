@@ -1,0 +1,44 @@
+
+.input{
+      background: white;
+      border-radius: 21px;
+      border: 0px;
+      font-size: 12px;
+      text-indent: 15px;
+      text-align: inherit;
+      max-width: 100%;
+    }
+    .vtex-button__label{
+      padding: 0 !important;
+    }
+    .input{
+      border-radius: 0px  !important;
+      max-width: 100% !important;
+      width: 100% !important;
+    }
+    .input::placeholder{
+      color: black;
+    }
+    .hideDecorators{
+      width: 100%;
+      max-width: 25px;
+  }
+  .hideDecorators{
+    height: auto;
+    border-radius: 3px !important;
+  }
+  .hideDecorators:last-child::placeholder {
+    text-align: right;
+    color: transparent;
+  }
+  .hideDecorators:first-child::placeholder {
+    text-align: left;
+    color: #bababa;
+  }
+  /*-------------------------------------------------------------------------------------------------MOBILE---*/
+@media only screen and (max-width: 700px) {
+  .noAppearance {
+    height: 32px;
+  }
+}
+

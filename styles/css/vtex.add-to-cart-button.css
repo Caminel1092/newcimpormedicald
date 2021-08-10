@@ -1,0 +1,161 @@
+.buttonDataContainer{
+  background: #0a68e6;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  padding: 21px 0 17px 0;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+
+}
+:global(.vtex-add-to-cart-button-0-x-buttonText){
+  color: #ffffff !important; 
+}
+.buttonDataContainer--onpage{
+  height: 62px;
+  margin: 0;
+  background: #deec01;
+}
+
+.buttonDataContainer--productcheckout{
+  background-color: white;
+ /* margin-top: 10px;*/
+  border: 2px solid #8678c8 ;
+  color: #8678c8 ;
+  border-radius: 5px;
+  height: 62px;
+}
+.buttonText--onpage{
+  /*font-size: 15px !important;*/
+
+  color: #0070e0 !important;
+}
+.buttonDataContainer--productcheckout:hover{
+  background: white;
+}
+/*
+.buttonDataContainer:hover{
+  background: #0070e0;
+}*/
+
+.vtex-button__label{
+  padding: 0 !important;
+}
+.buttonText{
+  /*font-size: 13px;*/
+  text-transform: initial;
+  min-width: 100%;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vtex-button__label{
+  display: none !important;
+}
+.buttonText{
+  color: white;
+
+  width: 100%;
+  margin: -2px 0 0 0;
+  text-transform: uppercase;
+}
+.buttonText--productcheckout::before{
+  font-size: 16px;
+  content: "COMPRAR AHORA";
+  color: #0070e0;
+
+}
+.buttonText--productcheckout{
+  font-size: 0;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------MOBILE*/
+@media only screen and (max-width: 700px) {
+  .buttonDataContainer{
+  /*  background: #0170e3;*/
+    height: 45px;
+      display: flex;
+      align-items: center;
+      padding: 21px 0 17px 0;
+      width: 100%;
+      border-radius: 3px;
+  }
+  .buttonDataContainer:hover{
+    background: #deec01;
+  }
+  .buyButtonContainer{
+    background: #0170e3
+  }
+  .vtex-button__label{
+    padding: 0 !important;
+  }
+  .buttonText{
+    font-size: 13px;
+    text-transform: initial;
+    min-width: 100%;
+    min-height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .vtex-button__label{
+    display: none !important;
+  }
+  .buttonText{
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    margin: -6px 0 0 0;
+  }
+  .buttonText:hover{
+    color: #0170e3;
+    background: #deec01;
+  }
+  .buttonText--productcheckout::before{
+    font-size: 13px;
+    content: "Comprar";
+  
+  }
+  .buttonText--productcheckout{
+    font-size: 0;
+  }
+  .buttonText--onpage {
+    background-color: #deec01 !important;
+    color: #0170e3;
+    border: none !important;
+    text-transform: uppercase;
+  }
+  .buttonText--onpage:hover {
+    background-color: #0170e3 !important;
+    color: #deec01 !important;
+    border: none !important;
+    text-transform: uppercase;
+  }
+  .buttonText--productcheckout{
+    background-color: white !important;
+    border: 1px solid #0170e3 !important;
+    color: #0170e3 !important;
+    text-transform: uppercase;
+  }
+  .vtex-button__label{
+    display: block !important;
+  }
+  .buttonDataContainer--productcheckout{
+    border: none;
+  }
+}

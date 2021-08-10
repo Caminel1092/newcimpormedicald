@@ -1,0 +1,186 @@
+{
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+
+  "store.login": {
+    "blocks": [
+      "info-card#bannerC1", 
+      "login-content#default", 
+      "info-card#boton-ver-carrito"
+    ]
+  },
+  "product-summary.shelf#vitrina2": {
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-sku-selector",
+      "flex-layout.row#pricing",
+      "flex-layout.row#vitrina"
+    ]
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+      
+    }
+  },
+  "info-card#bannerC1":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://impormedical.vteximg.com.br/arquivos/sec_baner5.png",
+      "headline":"REGÍSTRATE",
+      "subhead": "PARA VER TODO NUESTRO CONTENIDO EXCLUSIVO",
+      "textPosition": "right",
+      "textAlignment": "left",
+      "blockClass":"inicio"
+    }
+  },
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+     /* "product-identifier.summary",
+      /*"product-summary-sku-selector",*/
+      "flex-layout.row#pricing",
+      "flex-layout.row#vitrina"
+    ],
+    "props":{
+      "showPaginationDots": "never",
+      "autoplay":{
+        "timeout": 3000,
+        "stopOnHover": false
+      }
+    }
+  },
+  "product-summary-sku-selector": {
+   "props":{
+     "showVariationsLabels": ["false"]
+      }
+  },
+  "flex-layout.row#vitrina":{
+    "children": [
+ //     "flex-layout.col#cantidad",
+      "flex-layout.col#buybutton"
+    ],
+    "props":{
+      "blockClass": "cantidadC"
+    }
+  },
+  
+  "flex-layout.row#vitrinaNotLog":{
+    "children": [
+      "flex-layout.col#buybuttonNotLog"
+    ],
+    "props":{
+      "blockClass": "cantidadC"
+    }
+  },
+// "flex-layout.col#cantidad":{
+//  "children": [
+//    "product-quantity#vitrine"
+//   ],
+//   "props":{y
+//    "width": "30%",
+//     "verticalAlign": "middle",
+//     "blockClass": "cantidadV",
+//     "paddingLeft": "0px",
+//     "paddingRight": "5px"
+//   }
+// },
+  "flex-layout.col#buybutton":{
+    "children": [
+      "add-to-cart-button#vitrine"
+    ],
+    "props":{
+      "width": "100%",
+      "verticalAlign": "middle",
+      "blockClass": "buyc",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  
+  "flex-layout.col#buybuttonNotLog":{
+    "children": [
+      "rich-text#VERPRODUTO"
+    ],
+    "props":{
+      "width": "100%",
+      "verticalAlign": "middle",
+      "blockClass": "buycVER",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  "product-quantity#vitrine":{
+    "props":{
+      "size":"small"
+    }
+  },
+  "add-to-cart-button#vitrine":{
+      "props":{
+        "text": "Agregar al carrito"
+      }
+  },
+  "add-to-cart-button#vitrineNotLog":{
+    "props":{
+      "text": "Ver Producto"
+    }
+},
+"rich-text#VERPRODUTO": {
+  "props": {
+    "text": "VER PRODUCTO",
+    "textAlignment": "CENTER",
+    "font": "t-heading-3",
+    "textPosition": "CENTER",
+    "blockClass": "VERPRODUCTOBOTON"
+  }
+},
+  "flex-layout.row#pricing":{
+    "children": [
+      "product-summary-price#first"
+    ]
+  },
+  "product-summary-price#first":{
+    "props":{
+      "blockClass": "newprice"
+    }
+  },
+  "info-card#boton-ver-carrito":{
+    "props":{
+      "id":"texting",
+      
+      "callToActionText": "Ver nuestro catalogo sin loggear",
+      "isFullModeStyle": true,
+      "callToActionUrl": "https://www.impormedical.com.co/",
+      "textPosition": "Center",
+      "textAlignment": "Center",
+      "callToActionMode": "link",
+      "blockClass": "imagec1"
+    }
+  },
+  "challenge.trade-policy-condition": {
+    "props": {
+      "redirectPath"  : "/login",
+      "forbiddenRedirectPath":"/accessdenied"
+    }
+  }
+
+
+
+}

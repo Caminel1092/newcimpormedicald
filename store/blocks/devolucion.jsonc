@@ -1,0 +1,253 @@
+{
+  "store.custom#devo": {
+    "blocks": [
+      "info-card#bannerdevoM",
+      "info-card#bannerdevo",
+      "rich-text#title-devoM",
+      "flex-layout.row#devo",
+      "flex-layout.row#devoMobile"
+    ]
+  },
+
+  "flex-layout.row#devo": {
+    "children": [
+      "flex-layout.col#text-devo1",
+      "flex-layout.col#text-devo"
+    ],
+    "props":{
+      "blockClass": "FaqsColumn"
+    }
+  },
+  "flex-layout.col#text-devo1": {
+    "children": [
+      "rich-text#titles-devo1",
+      "rich-text#titles-devo2",
+      "rich-text#titles-devo3",
+      "rich-text#titles-devo4",
+      "rich-text#titles-devo5",
+      "rich-text#titles-devo6",
+      "rich-text#titles-devo7",
+      "rich-text#titles-devo8"
+    ],
+    "props": {
+      "blockclass": "textColumn1",
+      "preventVerticalStretch": true,
+      "width": "20%",
+      "rowGap": 0
+    }
+  },
+  "info-card#bannerdevo":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerestaticab2c2.png",
+      "callToActionUrl": "#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"bannerC"
+    }
+  },
+  "info-card#bannerdevoM":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerestaticab2c_mobile2devo.png",
+      "callToActionUrl": "#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"bannerM"
+    }
+  },
+  "flex-layout.col#text-devo": {
+    "children": [
+      "rich-text#title-devo",
+      "rich-text#devo",
+      "rich-text#devo2",
+      "rich-text#devo3"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true,
+      "width": "80%",
+      "rowGap": 0
+    }
+  },
+  "rich-text#titles-devo1":{
+    "props": {
+      "text":"[Politicas privacidad](/privacidad)",
+      "blockClass": "tituloEstaticos"
+    }
+  },
+  "rich-text#titles-devo2":{
+    "props": {
+      "text":"[PREGUNTAS FRECUENTES](/faqs)",
+      "blockClass": "contenidoEstaticas"
+    }
+  },
+  "rich-text#titles-devo3":{
+    "props": {
+      "text":"[COMPRAR](/)",
+      "blockClass": "tituloEstaticos"
+    }
+  },
+  "rich-text#titles-devo4":{
+    "props": {
+      "text":"[DEVOLUCIÓN](/devoluciones)",
+      "blockClass": "tituloEstaticos"
+    }
+  },
+  "rich-text#titles-devo5":{
+    "props": {
+      "text":"[CÓMO DEVOLVER](/devoluciones)",
+      "blockClass": "contenidoEstaticas"
+    }
+  },
+  "rich-text#titles-devo6":{
+    "props": {
+      "text":"[REMMBOLSO](/devoluciones)",
+      "blockClass": "contenidoEstaticas"
+    }
+  },
+  "rich-text#titles-devo7":{
+    "props": {
+      "text":"[MI CUENTA](/account)",
+      "blockClass": "tituloEstaticos"
+    }
+  },
+  "rich-text#titles-devo8":{
+    "props": {
+      "text":"[CUENTA](/account)",
+      "blockClass": "contenidoEstaticas"
+    }
+  },
+  "rich-text#title-devo": {
+    "props": {
+      "text":
+      "# POLÍTICAS DE PRIVACIDAD",
+      "blockClass": "textoquien"
+    }
+  },
+  "rich-text#title-devoM": {
+    "props": {
+      "text":
+      "# Devoluciones",
+      "blockClass": "textoquienM"
+    }
+  },
+
+  "rich-text#devo": {
+    "props": {
+      "text": "Impormedical Equipos y Suministros Médicos S.A. solo aceptará devolución de productos en los  siguientes casos:  \n 1.Recibir un producto con características diferentes a las solicitadas  en la compra.  \n Recibir un producto que no ha solicitado.  \n 2.No recibir el producto solicitado.  \n 3.No recibir el producto en el tiempo estipulado.  \n 4.Cuando se solicite el derecho a retracto  \n No se aceptarán devoluciones en los siguientes casos:  \n No se aceptarán devoluciones ni cambios de productos que hayan   \n 1.sido vendidos con descuento por alguna novedad estética que no  afecta el funcionamiento tal como lo son: empaque en mal estado,  rayones, empaque no original, manchas, acabado inconsistente en  la pintura, abolladuras, entre otros.  \n No se aceptarán devoluciones de producto bajo el concepto de baja   \n 2.rotación.  \n 3.Una vez hayan transcurrido más tres (3) días contados desde que  recibe el pedido y se reclame faltante o diferencia a lo pedido. Cuando el producto o su empaque se encuentre en mal estado por   \n 4.mala manipulación y/o almacenamiento de su parte, existan  evidencias de uso, desgaste o suciedad del mismo. (los productos  etiquetados por parte del cliente -precio-código-lapicero se  consideran deteriorados en su presentación).  \n Líneas de servicio al cliente: \n +57 (2) 285 5088 ext 104   \n +57 310 493 6998   \n servicioalcliente@impormedical.com.co  \n www.impormedical.com.co  \n ¿CÓMO REALIZAR UNA DEVOLUCIÓN? \n 1. Comunícate con nuestro servicio al cliente a través de las líneas  telefónicas 2855088 ext. 104 / 3104936998 o al correo electrónico  servicioalcliente@impormedical.com.co  \n 2. El producto deberá ser devuelto en las mismas condiciones en que fue  recibido, es decir en su empaque original con todo su contenido  (manuales, accesorios, empaques) y en perfecto estado.  \n 3. En cuanto a los costos de envío:  \n a. Si la devolución es causada por un error por parte del personal de  Impormedical Equipos y Suministros Médicos S.A., asumiremos el costo  de envío de los poductos involucrados.  \n b. Si la devolución es causada por un error por parte del cliente, este deberá  asumir el valor del envío hasta nuestras instalaciones.  \n 4. El tiempo máximo para ejercer una devolución es de tres (3) días hábiles  después de recibido el producto.  \n 5. Una vez recibido el producto devuelto, será inspeccionado en un tiempo  máximo de siete (7) días calendario.   \n a. Si en el resultado de la inspección el producto presenta alguna novedad  no reportada al momento de solicitar la devolución, se tomarán los días  estipulados por la ley 1480 para el trámite de garantía y se procederá a  retornar el producto.  \n b. Si en el resultado de la inspección el producto no presenta ninguna  novedad, se realizará una nota crédito por el mismo valor de la factura de  venta en un tiempo máximo de cinco (5) días calendario.  \n ¿CÓMO EJERCER EL DERECHO DE RETRACTO? \n De acuerdo a lo estipulado en la ley 1480, las compras realizadas en medios no presenciales, tales  como venta telefónica, están sujetas al derecho de retracto. Podrás realizar la devolución bajo las  siguientes condiciones:  \n 1. Comunícate con nuestro servicio al cliente a través de las líneas  telefónicas 2855088 ext. 104 / 3104936998 o al correo electrónico  servicioalcliente@impormedical.com.co  \n 2. El producto deberá ser devuelto en las mismas condiciones en que fue  recibido, es decir en su empaque original con todo su contenido  (manuales, accesorios, empaques) y en perfecto estado.  \n 3. Los costos de envío a nuestras instalaciones serán asumidos por el  cliente.  \n 4. El tiempo máximo para ejercer el derecho de retracto es de cinco (5)  días hábiles después de recibido el producto.  \n 5. Una vez recibido el producto devuelto, será inspeccionado.  \n a. Si en el resultado de la inspección el producto presenta alguna  novedad no reportada al momento de solicitar el derecho a retracto,  se tomarán los días estipulados por la ley 1480 para el trámite de  garantía y se informara sobre la procedencia del derecho de retracto.  n b. Si en el resultado de la inspección el producto no presenta ninguna  novedad, la devolución del dinero en ejercicio del derecho de retracto  se realizará a más tardar a los treinta (30) días calendario contados  desde el momento en que se inició el trámite de derecho de retracto.",
+      "blockClass": "textostilo"
+    }
+    
+  },
+  "rich-text#devo2": {
+      "props": {
+        "text": "",
+        "blockClass": "textostilo"
+      }
+      
+    },
+    "rich-text#devo3": {
+      "props": {
+        "text": "",
+        "blockClass": "textostilo"
+      }
+      
+    },
+  //Mobile para devo
+  "flex-layout.row#devoMobile": {
+    "children": [
+      "flex-layout.col#text-devoMobile"
+    ],
+    "props":{
+      "blockClass": "FaqsColumn"
+    }
+  },
+  "flex-layout.col#text-devoMobile": {
+    "children": [
+      "disclosure-layout#devom",
+      "disclosure-layout#devom2",
+      "disclosure-layout#devom3",
+      "disclosure-layout#devom4"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true,
+      "width": "80%",
+      "rowGap": 0
+    }
+  },
+  //desplegables
+  "disclosure-layout#devom": {
+    "children": ["disclosure-trigger#devom", "disclosure-content#devom"]
+  },
+  "disclosure-trigger#devom": {
+    "children": ["rich-text#devoluc"]
+  },
+  "disclosure-content#devom": {
+    "children": ["rich-text#devo"]
+  },
+  "rich-text#devoluc": {
+    "props": {
+      "text": "devo",
+      "blockClass": "TituloMobile"
+    }
+  },
+  //SEGUNDO DESPLEGABLE
+  "disclosure-layout#devom2": {
+    "children": ["disclosure-trigger#devom2", "disclosure-content#devom2"],
+    "props": {
+      "animated": true
+    }
+  },
+  "disclosure-trigger#devom2": {
+    "children": ["rich-text#devoluc2"]
+  },
+  "disclosure-content#devom2": {
+    "children": ["rich-text#devo"]
+  },
+  "rich-text#devoluc2": {
+    "props": {
+      "text": "COMPRAS",
+      "blockClass": "TituloMobile"
+    }
+  },
+  // TERCER DESPLEGABLE
+  "disclosure-layout#devom3": {
+    "children": ["disclosure-trigger#devom3", "disclosure-content#devom3"],
+    "props": {
+      "animated": true
+    }
+  },
+  "disclosure-trigger#devom3": {
+    "children": ["rich-text#devoluc3"]
+  },
+  "disclosure-content#devom3": {
+    "children": ["rich-text#devo"]
+  },
+  "rich-text#devoluc3": {
+    "props": {
+      "text": "DEVOLUCIÓN",
+      "blockClass": "TituloMobile"
+    }
+  },
+  //CUARTO DEESPLEGABLE
+  "disclosure-layout#devom4": {
+    "children": ["disclosure-trigger#devom4", "disclosure-content#devom4"],
+    "props": {
+      "animated": true
+    }
+  },
+  "disclosure-trigger#devom4": {
+    "children": ["rich-text#devoluc4"]
+  },
+  "disclosure-content#devom4": {
+    "children": ["rich-text#devo"]
+  },
+  "rich-text#devoluc4": {
+    "props": {
+      "text": "MI CUENTA",
+      "blockClass": "TituloMobile"
+    }
+  }
+}

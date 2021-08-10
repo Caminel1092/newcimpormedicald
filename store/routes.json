@@ -1,0 +1,25 @@
+{
+    "store.custom#quines-us": {
+        "path": "/quienes-somos"
+      },
+    "store.custom#privacidad": {
+        "path": "/aviso-privacidad"
+    },
+    "store.custom#terminos": {
+        "path": "/terminos-condiciones"
+    },
+    "store.custom#faqs": {
+      "path": "/faqs"
+    },
+    
+    "store.custom#coockies": {
+      "path": "/cookies"
+    },
+    "store.custom#devo": {
+      "path": "/devolucion"
+    },
+    "store.custom#notienesacceso": {
+      "path": "/accessdenied"
+    }
+
+  }

@@ -1,0 +1,16 @@
+.openIconContainer{
+    width: 20% !important;
+    padding: 0;
+}
+.openIconContainer--hamburguesa-mobile {
+    width: 100% !important;
+    display: block;
+    COLOR: #0170e3;
+    margin: auto 12px auto;
+}
+.childrenContainer--hamburguesa-mobile {
+    display: block;
+}
+.opened--hamburguesa-mobile {
+    width: 80% !important;
+}
